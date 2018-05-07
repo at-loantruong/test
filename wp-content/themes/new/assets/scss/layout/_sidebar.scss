@@ -1,0 +1,6 @@
+.sidebar,
+.main-content{
+  min-height: 100vh;
+  border: 1px solid $primary-color;
+  @include border-radius(5px);
+}

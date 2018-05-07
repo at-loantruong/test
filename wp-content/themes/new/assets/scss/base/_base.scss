@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0; 
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+a {
+  color: $second-color;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}
+body {
+  font-family: $font-family;
+  line-height: 20px;
+  font-size: $base-font-size;
+  color: $second-color;
+  font-weight: $base-font-weight;
+  background: $background;
+}
+.content {
+  @include box-shadow(0px, 10px, 10px, 0, rgba(0, 0, 0, 0.2));
+  min-height: 100vh;
+  background: $white-color;
+  padding: 50px 15px;
+}
+.post-item {
+  width: 31.33%;
+  margin: 0 1% 20px;
+  float: left;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  color: $title-color;
+  line-height: 36px;
+}
+h2 {
+  font-size: 28px;
+  color: $title-color;
+  line-height: 36px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h3,
+h4 {
+  font-weight: 400;
+}

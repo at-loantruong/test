@@ -1,0 +1,27 @@
+.main-header {
+  border-top: 5px solid $primary-color;
+  background: $background-header-footer;
+  h4 {
+    color: $white-color;
+  }
+  a {
+    color: $white-color;
+    text-transform: uppercase;
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
+.logo {
+  margin-top: 10px;
+}
+.menu {
+  li {
+    display: inline-block;
+    a {
+      padding: 32px 13px;
+      display: block;
+    }
+  }
+}
